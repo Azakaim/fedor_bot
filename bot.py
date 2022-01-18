@@ -4,7 +4,7 @@ from environ import Env
 from settings import *
 
 env = Env()
-env.load_env()
+env.read_env()
 
 
 token = env('BOT_TOKEN')
